@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Resume</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f4f4f4;
+		}
+
+		.container {
+			width: 800px;
+			margin: 50px auto;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			padding: 30px;
+		}
+
+		.header {
+			text-align: center;
+			margin-bottom: 30px;
+		}
+
+		.header h1 {
+			font-size: 36px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+
+		.header p {
+			font-size: 18px;
+			color: #555;
+		}
+
+		.section {
+			margin-bottom: 30px;
+		}
+
+		.section-title {
+			font-size: 24px;
+			font-weight: bold;
+			margin-bottom: 15px;
+			color: #333;
+		}
+
+		.section-content {
+			font-size: 16px;
+			line-height: 1.5;
+			color: #555;
+		}
+
+		.about-me {
+			text-align: justify;
+		}
+
+		.experience,
+		.education {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.experience-item,
+		.education-item {
+			margin-bottom: 15px;
+			border-left: 5px solid #ffc107;
+			padding-left: 15px;
+		}
+
+		.experience-item h3,
+		.education-item h3 {
+			font-size: 18px;
+			font-weight: bold;
+			color: #333;
+		}
+
+		.experience-item p,
+		.education-item p {
+			margin-bottom: 5px;
+		}
+
+		.contact {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.contact-info {
+			width: 30%;
+		}
+
+		.contact-info h3 {
+			font-size: 18px;
+			font-weight: bold;
+			color: #333;
+			margin-bottom: 15px;
+		}
+
+		.contact-info ul {
+			list-style: none;
+			padding: 0;
+		}
+
+		.contact-info li {
+			margin-bottom: 5px;
+		}
+
+		.personal-skills {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.skill-item {
+			text-align: center;
+			width: 30%;
+		}
+
+		.skill-item h4 {
+			font-size: 16px;
+			font-weight: bold;
+			margin-bottom: 5px;
+			color: #333;
+		}
+
+		.skill-item p {
+			font-size: 14px;
+			color: #555;
+		}
+
+		.language {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.language-item {
+			width: 30%;
+			text-align: center;
+		}
+
+		.language-item h4 {
+			font-size: 16px;
+			font-weight: bold;
+			margin-bottom: 5px;
+			color: #333;
+		}
+
+		.language-item .progress {
+			height: 10px;
+			background-color: #eee;
+			border-radius: 5px;
+			margin-bottom: 5px;
+			overflow: hidden;
+		}
+
+		.language-item .progress-bar {
+			height: 100%;
+			background-color: #ffc107;
+		}
+
+		.interest {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.interest-list {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			list-style: none;
+			padding: 0;
+		}
+
+		.interest-item {
+			width: 48%;
+			margin-bottom: 10px;
+		}
+
+		.reference {
+			margin-top: 30px;
+		}
+
+		.reference-item {
+			margin-bottom: 15px;
+			border-left: 5px solid #ffc107;
+			padding-left: 15px;
+		}
+
+		.reference-item h3 {
+			font-size: 18px;
+			font-weight: bold;
+			color: #333;
+		}
+
+		.reference-item p {
+			margin-bottom: 5px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<img src="WhatsApp Image 2024-02-05 at 21.45.54_45cbb1c7.jpg" alt="" height="100px" width="100px">
+			<h1>SiSSY BRYER</h1>
+			<p>PROFESSIONAL TITLE</p>
+		</div>
+
+		<div class="section about-me">
+			<h2 class="section-title">About Me</h2>
+			<p class="section-content">
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+				laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+				ullamcorper suscipit lobortis nisi ut aliquip ex ea commodo consequat.
+			</p>
+		</div>
+
+		<div class="section experience">
+			<h2 class="section-title">Experience</h2>
+			<div class="experience-item">
+				<h3>Job Position Here</h3>
+				<p>Company Name Here</p>
+				<p>2018-2020</p>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+					laoreet dolore magna aliquam erat volutpat.</p>
+			</div>
+			<div class="experience-item">
+				<h3>Job Position Here</h3>
+				<p>Name of Your University</p>
+				<p>2017-2018</p>
+				<p>Lonem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+					laoreet dolore magna aliquam erat volutpat.</p>
+			</div>
+		</div>
+
+		<div class="section education">
+			<h2 class="section-title">Education</h2>
+			<div class="education-item">
+				<h3>Enter Your Major</h3>
+				<p>Name of Your University</p>
+				<p>2011-2014</p>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+					laoreet dolore magna aliquam erat volutpat.</p>
+			</div>
+			<div class="education-item">
+				<h3>Enter Your Major</h3>
+				<p>Name of Your University</p>
+				<p>2007-2010</p>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+					laoreet dolore magna aliquam erat volutpat.</p>
+			</div>
+		</div>
+
+		<div class="section contact">
+			<div class="contact-info">
+				<h3>Contact Me</h3>
+				<ul>
+					<li>01234 567 890</li>
+					<li>yourmail ghere</li>
+					<li>yoursiteurlis here</li>
+					<li>Street Adress Here</li>
+				</ul>
+			</div>
+		</div>
+			<div class="personal-skills">
+				<h2 class="section-title">Personal Skills</h2>
+				<div class="skill-item">
+					<h4>SEO</h4>
+					<p>95%</p>
+				</div>
+				<div class="skill-item">
+					<h4>Graphics</h4>
+					<p>80%</p>
+				</div>
+				<div class="skill-item">
+					<h4>Web Design</h4>
+					<p>80%</p>
+				</div>
+			</div>
+			<br>
+		
+
+		<div class="section language">
+			<h2 class="section-title">Language</h2>
+			<div class="language-item">
+				<h4>English</h4>
+				<div class="progress">
+					<div class="progress-bar" style="width: 100%;"></div>
+				</div>
+			</div>
+			<div class="language-item">
+				<h4>French</h4>
+				<div class="progress">
+					<div class="progress-bar" style="width: 80%;"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section interest">
+			<h2 class="section-title">Interest</h2>
+			<ul class="interest-list">
+				<li class="interest-item">Swimming</li>
+				<li class="interest-item">Cycling</li>
+				<li class="interest-item">Traveling</li>
+				<li class="interest-item">Chess</li>
+				<li class="interest-item">Songs</li>
+				<li class="interest-item">Movies</li>
+				<li class="interest-item">Reading</li>
+				<li class="interest-item">Videos</li>
+			</ul>
+		</div>
+
+		<div class="section reference">
+			<h2 class="section-title">Reference</h2>
+			<div class="reference-item">
+				<h3>Mark Johnson</h3>
+				<p>Director of Company Name</p>
+				<p>Phone: +000 1234 6789</p>
+				<p>Email: mail@here</p>
+			</div>
+			<div class="reference-item">
+				<h3>Alyssa John</h3>
+				<p>Chairman of Company Name</p>
+				<p>Phone: +000 1234 6789</p>
+				<p>Email: mail@here</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
